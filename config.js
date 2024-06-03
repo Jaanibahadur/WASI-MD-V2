@@ -53,7 +53,7 @@ module.exports = {
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "jaani-𝐌𝐃-𝐕2",
   ownername: process.env.OWNER_NAME || "jaani",
-  errorChat: process.env.ERROR_CHAT || "923346580757",
+  errorChat: process.env.ERROR_CHAT || "923263409442",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "WASI").toUpperCase(),
   AUTOREACT: process.env.autoreact.PACK || "👍"
 };
